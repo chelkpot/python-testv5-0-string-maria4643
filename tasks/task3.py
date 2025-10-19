@@ -1,10 +1,9 @@
 # tasks/task3.py
 
 def solve():
-# Ниже пишите решение задачи
-     
+    s1 = input()
+    s2 = input()
+    print(s2 + s1)
 
-
-# Код ниже не трогать! он нужен для тестов
 if __name__ == "__main__":
     solve()

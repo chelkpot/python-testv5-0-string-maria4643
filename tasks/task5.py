@@ -1,9 +1,9 @@
 # tasks/task5.py
 
 def solve():
-# Ниже пишите решение задачи
-    
-   
-# Код ниже не трогать! он нужен для тестов
+    chars = input().split()
+    for c in chars:
+        print(f"Код символа {c} равен {ord(c)}")
+
 if __name__ == "__main__":
     solve()
